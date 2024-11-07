@@ -54,7 +54,7 @@ if selected == "Home":
 
     # Set up the Proxycurl API endpoint and API key
     api_endpoint = 'https://nubela.co/proxycurl/api/v2/linkedin'
-    api_key = '-iwApnQnf7RhrBG-PTUiiA'  
+    api_key = 'Z-k6Sdr4hZGnjwnFCmGYog'  
 
     # Set up headers for the API request
     headers = {'Authorization': 'Bearer ' + api_key}
