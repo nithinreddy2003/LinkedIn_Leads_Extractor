@@ -5,7 +5,7 @@ from PIL import Image  # Import for handling images
 from streamlit_option_menu import option_menu  # Import for option menu
 
 # Page icon
-icon = Image.open("D:/All Documents/Projects/LinkedIn/Logo.png")
+icon = Image.open("Logo.png")
 
 # Page configuration
 st.set_page_config(
@@ -21,7 +21,7 @@ st.text("")
 st.text("")
 
 # Background Styling
-background_image_path = "D:/All Documents/Projects/LinkedIn/Logo.png"
+background_image_path = "Logo.png"
 st.markdown(
     f"""
     <style>
@@ -184,7 +184,7 @@ elif selected == "Project Details":
     st.write("")
     st.write("The data is displayed in a well-organized, color-coded layout for easy readability. Each section of the profile, such as skills or work experience, is clearly separated for better user experience. This tool is designed to simplify the process of lead generation or researching LinkedIn profiles, providing quick access to detailed and structured profile information.")
     st.write("")
-    image="D:/All Documents/Projects/LinkedIn/Logo.png"
+    image="Logo.png"
     image = Image.open(image)
     st.image(image, caption="Leads Extractor Logo", width=500, use_column_width="auto", clamp=False, channels="RGB", output_format="auto")
     
@@ -194,7 +194,7 @@ elif selected == "Contact":
     st.text("")
     
     # Load and resize image for the team member
-    nithin = Image.open("D:/All Documents/Projects/LinkedIn/Nithin.JPG").resize((900, 900))
+    nithin = Image.open("Nithin.JPG").resize((900, 900))
 
     # Display the team member's image and details
     st.image(nithin, caption="Nithin Reddy Cheerapureddy", use_column_width=True)
